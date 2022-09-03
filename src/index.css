@@ -1,0 +1,43 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: aquamarine;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#recorded-div {
+  width: 0px;
+  height: 0px;
+}
+.container > video {
+  width: 70%;
+  height: auto;
+  border: 3px groove darkblue;
+  padding: 30px;
+  background-color: black;
+}
+
+button-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+body {
+  text-align: center;
+  padding-top: 20px;
+}
